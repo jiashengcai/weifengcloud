@@ -57,4 +57,7 @@ git push -u origin master
 git git push -u origin master
 </code></pre>
 <p><strong>注意</strong>  如果需要更改尽量自己创建一个分支然后修改再提交。</p>
-
+```
+合并两个没有共同分支历史的仓库
+git pull origin master --allow-unrelated-histories 
+```
